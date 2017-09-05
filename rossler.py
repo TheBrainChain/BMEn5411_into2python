@@ -3,8 +3,7 @@ from matplotlib import *
 from scipy import *
 from pylab import figure, show, setp
 from mpl_toolkits.mplot3d import Axes3D
-import detect_peaks
-
+from helpers import detect_peaks
 def num_rossler(x_n,y_n,z_n,h,a,b,c):
     x_n1=x_n+h*(-y_n-z_n)
     y_n1=y_n+h*(x_n+a*y_n)
