@@ -2,25 +2,31 @@ from sklearn import tree
 
 clf = tree.DecisionTreeClassifier()
 
-# CHALLENGE - create 3 more classifiers...
-# 1
-# 2
-# 3
 
-# [height, weight, shoe_size]
-X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40],
-     [190, 90, 47], [175, 64, 39],
-     [177, 70, 40], [159, 55, 37], [171, 75, 42], [181, 85, 43]]
+X = [[95, 80, 44], [77, 70, 43], [60, 60, 38], [54, 54, 37], [66, 65, 40],
+     [90, 90, 47], [85, 94, 39],
+     [77, 70, 40], [59, 55, 37], [81, 95, 42], [81, 85, 83]]
 
-Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
-     'female', 'male', 'male']
+Y = ['pass', 'fail', 'fail', 'fail', 'fail', 'pass', 'pass', 'fail',
+     'fail', 'pass', 'pass']
 
 
-# CHALLENGE - ...and train them on our data
 clf = clf.fit(X, Y)
 
-prediction = clf.predict([[190, 70, 43]])
+prediction1 = clf.predict([[60, 40, 43]])
+prediction2 = clf.predict([[90, 75, 63]])
+prediction3 = clf.predict([[83, 90, 83]])
 
-# CHALLENGE compare their reusults and print the best one!
 
-print(prediction)
+print(prediction1)
+print(prediction2)
+print(prediction3)
+
+
+
+
+
+
+
+
+

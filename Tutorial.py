@@ -18,7 +18,7 @@ print("")
 print("________________________________________________")
 
 # if statements
-
+# booleans
 scienceIsFun = True
 
 print("Is science fun?")
@@ -49,7 +49,7 @@ print("________________________________________")
 print("")
 
 student_grades = {
-        'CC': 100+100,'TN': 100+100,'NA': 0,'WA': 0,'SVSA': 0,'BB': 0,'JB': 0,'TD': 0,'CD': 0,'CD': 0,
+        'NA': 0,'WA': 0,'SVSA': 0,'BB': 0,'JB': 0,'TD': 0,'CD': 0,'CD': 0,
         'EG': 0,'PG': 0,'CG': 0,'MG': 0,'AH': 0,'CK': 0,'SK': 0,'ZK': 0,
         'AK': 0,'JL': 0,'LM': 0,'KMai': 0,'KMan': 0,'LM': 0,'DM': 0,'BSRM': 0,
         'ANai': 0,'ANaw': 0,'ATN': 0,'CO': 0,'KP': 0,'JP': 0,'MS': 0,'ES': 0,
